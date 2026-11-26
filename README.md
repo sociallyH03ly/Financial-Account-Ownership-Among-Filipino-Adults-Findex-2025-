@@ -91,19 +91,18 @@ Variables that are mechanically tied to account ownership are excluded, for exam
 ---
 
 ## Results
-
-> Run the notebooks to regenerate every table and figure. Fill in your headline numbers below after running.
-
+ 
+Weighted estimates for Filipino adults (n = 1,000; effective n ≈ 429). Full details are in the accompanying data analysis report.
+ 
 | Item | Result |
 |---|---|
-| Adults with any account (weighted) | _add_ |
-| Adults with a formal (FI) account (weighted) | _add_ |
-| Gender gap in account ownership | _add_ |
-| Income Q1 vs. Q5 account ownership | _add_ |
-| Logistic regression CV AUC (set B) | _add_ |
-| Random Forest CV AUC (set B) | _add_ |
-| Top 5 characteristics (consensus rank) | _add_ |
-
+| Adults with a formal (FI) account (weighted) | **33.5%** (95% CI 29.1-38.0) |
+| Adults with any account (formal or mobile money) | **50.2%** (mobile money: 28.8%) |
+| Gender gap in account ownership | Women ahead of men: 57% vs 43% (any account), 39% vs 28% (formal) |
+| Income Q1 vs. Q5 account ownership | Any account 33% vs 64%; formal account 25% vs 46% |
+| Logistic regression CV AUC (set B) | **0.672** (± 0.021) |
+| Random Forest CV AUC (set B) | **0.672** (± 0.030); no significant difference from logistic regression (p = 0.97) |
+| Top 5 characteristics (consensus rank) | 1. Age, 2. Education, 3. In workforce, 4. Female, 5. Income quintile |
 ---
 
 ## How to run
